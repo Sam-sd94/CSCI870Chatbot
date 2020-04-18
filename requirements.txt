@@ -12,3 +12,5 @@ pip
 gunicorn
 Chatterbot
 pandas
+chatterbot-corpus
+chatbot
