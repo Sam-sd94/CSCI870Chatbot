@@ -1,0 +1,119 @@
+body {
+    background: #131313;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+
+.heading {
+    margin-top: 35px;
+}
+
+h1, a, a:hover, .btn, .btn:hover, i {
+    color: rgb(163, 180, 255);
+}
+
+#last-updated {
+    margin-top: 8px;
+    float: right;
+}
+
+#last-updated i {
+    vertical-align: bottom;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.input-group-text {
+    background: rgb(163, 180, 255);
+    border-color: rgb(163, 180, 255);
+    color: #131313;
+}
+
+#select-country, select option {
+    color: #131313;
+}
+
+#shortcuts-container {
+    text-align: center;
+}
+
+.btn-link:not(5) {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.row {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 20px;
+}
+
+.col-lg-4 {
+    padding: 0;
+}
+
+.card {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    color: #131313;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-text {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+#deaths, #deaths-today {
+    color: #FF1E56;
+}
+
+#recovered {
+    color: #02ee91;
+}
+
+#critical {
+    color: #FFAC41;
+}
+
+footer {
+    float: right;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+    .heading {
+        margin-top: 15px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    #last-updated {
+        float: left;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .row {
+        margin-top: 20px;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+    .card-text {
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
