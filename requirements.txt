@@ -10,3 +10,6 @@ Flask-RESTful
 aiml
 pip
 gunicorn
+Chatterbot
+pandas
+json
