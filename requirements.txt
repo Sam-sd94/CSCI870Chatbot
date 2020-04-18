@@ -12,4 +12,3 @@ pip
 gunicorn
 Chatterbot
 pandas
-json
